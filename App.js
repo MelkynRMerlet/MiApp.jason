@@ -1,20 +1,25 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import BadBunny from './BadBunny';
+import '@fontsource-variable/roboto-slab';
+
+
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View style={styles.contenedorPrincipal}>
+      <BadBunny></BadBunny>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
+  contenedorPrincipal: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    fontFamily: 'Roboto Slab Variable'
+    
   },
 });

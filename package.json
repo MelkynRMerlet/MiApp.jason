@@ -9,6 +9,8 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@fontsource-variable/roboto-slab": "^5.1.0",
+    "@fontsource/merriweather": "^5.1.0",
     "expo": "~52.0.9",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
