@@ -1,7 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import BadBunny from './BadBunny';
-import '@fontsource-variable/roboto-slab';
+
 
 
 
@@ -19,7 +19,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    fontFamily: 'Roboto Slab Variable'
     
   },
 });

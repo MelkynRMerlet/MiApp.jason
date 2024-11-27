@@ -1,5 +1,5 @@
 import { StyleSheet, View, Image, Text,  } from "react-native";
-import '@fontsource-variable/roboto-slab';
+
 
 export default function BadBunny(){
     return(
@@ -49,7 +49,6 @@ const styles=StyleSheet.create ({
         fontSize: 20,
         marginLeft:60,
         marginTop:-50,
-        fontFamily: 'Roboto Slab Variable'
     },
     TPN2:{
         fontSize: 10,
@@ -66,7 +65,6 @@ const styles=StyleSheet.create ({
         fontSize: 35,
         marginTop: 25,
         textAlign:'center',
-        fontFamily: 'Roboto Slab Variable'
     },
     TextoN2:{
         fontSize: 15,
